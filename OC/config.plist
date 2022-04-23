@@ -501,7 +501,7 @@
 				<key>framebuffer-stolenmem</key>
 				<data>AAAwAQ==</data>
 				<key>framebuffer-unifiedmem</key>
-				<data>AAAAgA==</data>
+				<data>AAAAwA==</data>
 				<key>enable-lspcon-support</key>
 				<data>AQAAAA==</data>
 				<key>hda-gfx</key>
@@ -1405,7 +1405,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v debug=0x100 keepsyms=1 swd_panic=1 igfxrpsc=1 -igfxmlr -igfxblr -wegnoegpu TSC_sync_margin=0 alctsel=1 hbfx-ahbm=703</string>
+				<string>-v debug=0x100 keepsyms=1 swd_panic=1 igfxrpsc=1 -igfxmpc -igfxblr -wegnoegpu TSC_sync_margin=0 alctsel=1 hbfx-ahbm=703</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
