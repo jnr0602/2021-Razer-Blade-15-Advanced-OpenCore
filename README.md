@@ -1,6 +1,15 @@
 2021 Razer Blade 15 Advanced - OpenCore - macOS Monterey
 ===================
 
+- [2021 Razer Blade 15 Advanced - OpenCore - macOS Monterey](#2021-razer-blade-15-advanced---opencore---macos-monterey)
+  - [Hardware](#hardware)
+  - [Additional Notes](#additional-notes)
+    - [SMBIOS](#smbios)
+    - [Battery](#battery)
+    - [Sleep](#sleep)
+    - [Using external displays](#using-external-displays)
+  - [Resources](#resources)
+
 ## Hardware
 
 **Razer Blade Advanced Early 2021 (RZ09-0367)**
