@@ -45,6 +45,17 @@ You will need to generate your own MLB/ROM/SN/SmUUID if you use my `config.plist
 ### Battery
 Battery life is kinda iffy. On Linux/Windows I can get 4-6 hours of battery, but on macOS using `16,1` bios it is always around 1-2 hours. I'm currently experimenting with using `MacBookPro16,3` SMBIOS to help with battery life. I've noticed with the `16,1` bios, occasionally the iGPU frequency stays really high and uses more watts (CPU package total is around 10-12W even at idle). This may be attributed to the `16,1` and `16,4` MacBooks having a switchable dGPU and power management gets messed up on the hackintosh side (I can't confirm though, just a guess). `16,2` and `16,3` MacBooks are the 13" without a dGPU. They also are 10th Gen Intel CPUs as well. So hopefully it's a more compatible SMBIOS for the Razer Blade 15. So far my testing has shown that CPU package total is around 2-3W at idle using the `16,3` bios. YMMV.
 
+I also noticed that `mds_stores` (aka Spotlight Indexing) was causing my machine to use quite a lot CPU in the background and drain battery very quickly. I have disabled Spotlight for the time being using the following command.
+
+```bash
+sudo mdutil -a -i off
+```
+
+You can turn it back on by running
+```bash
+sudo mdutil -a -i on
+```
+
 ### Sleep
 
 Sleep generally works well. At first, the machine would not turn on the screen after wake from sleep when I closed to lid to initiate sleep. After some research, I added the `SSDT-PTSWAK.aml` ACPI file to try and force the EC to show that the lid was open (inspiration was from [vampjaz's repo](https://github.com/vampjaz/razer_blade_stealth_hackintosh) on the Razer Blade Stealth since they had the same issue). Occasionally this fix doesn't work, but all it takes to fix is to wait for the machine to fall back asleep and then press the power button to wake the computer.
