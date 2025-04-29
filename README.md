@@ -14,7 +14,7 @@
 
 **Razer Blade Advanced Early 2021 (RZ09-0367)**
 
-| | Spec | macOS 13 compatibility |
+| | Spec | macOS 15 compatibility |
 | ---: | :--- | :--- |
 | ``Chipset`` | Mobile Intel HM470 | No issues |
 | ``CPU`` | Intel Core i7-10875H processor, 8 Cores / 16 Threads, 2.3GHz / 5.1GHz, 16MB Cache | No issues |
@@ -24,7 +24,8 @@
 | ``Storage`` | NVMe CA5-8D1024 1TB NVMe M.2 SSD | No Issues  |
 | ``Screen`` | 15.6" QHD 240Hz, 2560 x 1440 IPS |  Only works at 60hz for now. I'm trying to figure out what else I can do to get it working at a higher refresh rate. |
 | ``Webcam`` | Windows Hello built-in IR HD webcam (1MP / 720P) |  No issues. Windows Hello is not supported in macOS |
-| ``WiFi`` | BCM943602CS Airport Card (BCM43602 802.11ac) | Works natively. This card is from a 2015 MacBook Pro 15" and can be found for [fairly cheap on eBay](https://www.ebay.com/sch/i.html?_nkw=BCM943602CS). I had to run an extra antenna cable to get the best compatibility. However, you should be able to use the [BCM94360CS2](https://www.ebay.com/sch/i.html?_nkw=BCM94360CS2) from a 2015 MacBook Pro 13" (it only has two antenna cables). |
+| ~~``WiFi & Bluetooth``~~ | ~~BCM943602CS Airport Card (BCM43602 802.11ac)~~ | ~~Works natively. This card is from a 2015 MacBook Pro 15" and can be found for [fairly cheap on eBay](https://www.ebay.com/sch/i.html?_nkw=BCM943602CS). I had to run an extra antenna cable to get the best compatibility. However, you should be able to use the [BCM94360CS2](https://www.ebay.com/sch/i.html?_nkw=BCM94360CS2) from a 2015 MacBook Pro 13" (it only has two antenna cables).~~ I had to switch back to Intel for Sequoia as I did not want to use OCLP and disable FileVault |
+| ``WiFi & Bluetooth`` | Intel AX210 | Works with HeliPort and Intel Bluetooth Firmware. Mic quality is poor with bluetooth headphones with Intel Bluetooth firmware on macOS, but is fine in Linux/Windows |
 | ``Input & Output`` | USB 3.2 Gen 2 (USB-A) x3 | No issues |
 | | USB-C 3.2 Gen 2 x2 (Shared with Thunderbolt 3 Port) | No issues |
 | | Thunderbolt 3 (USB-C) | USB-C works (both USB 2 and 3 devices), Thunderbolt is untested. |
