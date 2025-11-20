@@ -1,7 +1,7 @@
-2021 Razer Blade 15 Advanced - OpenCore - macOS Ventura
+2021 Razer Blade 15 Advanced - OpenCore - macOS Sequoia
 ===================
 
-- [2021 Razer Blade 15 Advanced - OpenCore - macOS Ventura](#2021-razer-blade-15-advanced---opencore---macos-ventura)
+- [2021 Razer Blade 15 Advanced - OpenCore - macOS Sequoia](#2021-razer-blade-15-advanced---opencore---macos-sequoia)
   - [Hardware](#hardware)
   - [Additional Notes](#additional-notes)
     - [SMBIOS](#smbios)
